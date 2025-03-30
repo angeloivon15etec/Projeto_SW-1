@@ -3,38 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <title>Cadastro</title>
+    <title>Login</title>
 </head>
 <body>
-    <div class="container">
-    <form action="processa.php" method="post">
-  <div data-mdb-input-init class="form-outline mb-4">
-    <input type="name" id="form2Example1" class="form-control" name="nome" />
-    <label class="form-label" for="form2Example1">Nome</label>
-  </div>
+<div class="container">
+        <img src="assets/img/contact-person-red-icon-free-png.png" alt="Ícone de Usuário" class="user-icon">
 
-  <div data-mdb-input-init class="form-outline mb-4">
-    <input type="password" id="form2Example2" class="form-control" name="senha" />
-    <label class="form-label" for="form2Example2">Senha</label>
-  </div>
+        <h2 style="color: #D32F2F; font-weight: bold;">Faça seu Login</h2>
+        
+        <form action="processa.php" method="post">
+            <div data-mdb-input-init class="form-group mb-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" name="usuario" placeholder="Digite seu email" />
+            </div>
 
-  <div class="row mb-4">
-    <div class="col d-flex justify-content-center">
+            <div data-mdb-input-init class="form-group mb-4">
+                <label for="senha" class="form-label">Senha</label>
+                <input type="password" id="senha" class="form-control" name="senha" placeholder="Digite sua senha" />
+            </div>
 
-
-  <!-- Submit button -->
-   <input type="submit" class="btn btn-primary btn-block mb-4" value="sign in">
+            <input type="submit" class="btn btn-primary btn-block mb-4" value="Entrar">
   
-  <!-- Register buttons -->
-  <div class="text-center">
-    <p>Nâo se cadastrou <a href="#!">cadastre-se</a></p>
-  </div>
-</form>
-    </div>
+            <div class="text-center">
+                <p>Não tem uma conta? <a href="cadastro.php">Cadastre-se</a></p>
+            </div>
+        </form>
+    </divv>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
