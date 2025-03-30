@@ -11015,11 +11015,11 @@ html {
     margin-bottom: 20px;
 }
 
-/* Ajusta tamanho das imagens */
+
 .portfolio-box img {
-    max-width: 250px;  /* Define um tamanho fixo para todas as imagens */
+    max-width: 250px;
     height: auto;
-    margin-bottom: 10px; /* Espaço entre imagem e texto */
+    margin-bottom: 10px;
 }
 
 }

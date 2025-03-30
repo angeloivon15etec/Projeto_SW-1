@@ -1,7 +1,7 @@
 <?php
 $nome = isset($_GET['nome']) ? $_GET['nome'] : 'Usuário';
 ?>
-
+ <!--parte do angelo -->
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
